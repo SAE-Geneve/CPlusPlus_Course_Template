@@ -1,1 +1,1 @@
-add_executable(ClassTemplates main.cpp)
+add_executable(ClassTemplates main.cc)

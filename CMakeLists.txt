@@ -5,3 +5,4 @@ project(CPlusPlus_Course_Template)
 
 add_subdirectory("FunctionTemplates")
 add_subdirectory("ClassTemplates")
+add_subdirectory("TemplateSerialization")

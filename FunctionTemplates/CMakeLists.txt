@@ -1,1 +1,1 @@
-add_executable(FunctionTemplates main.cpp)
+add_executable(FunctionTemplates main.cc)
