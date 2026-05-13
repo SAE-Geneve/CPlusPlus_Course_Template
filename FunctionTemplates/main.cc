@@ -1,15 +1,20 @@
 ﻿#include <iostream>
 
 
-template<typename  T>
-T add(T a, T b){
+template<typename  T, typename U>
+auto add(T a, U b){
     return a + b;
 }
 
 int main(){
 
     auto result_numeric = add<int>( 1, 1);
-    std::cout << "Result ? " << result_numeric << std::endl;
+
+    add(1, 2.3f);
+
+    std::cout << "Result ? " << add(1, 2.300000000000000000000001l) << std::endl;
+    std::cout << "Result ? " << add(2.3f, 1) << std::endl;
+
     return 0;
 
 }
